@@ -93,13 +93,15 @@ const Page = () =>{
                 </Heading>
                 <List>
                     <ListItem>
-                        <Link href='https://github/ikurotime' target='_blank'>
+                        <Link href='https://github.com/ikurotime' target='_blank'>
                             <Button variant='ghost' colorScheme='teal' leftIcon={<Icon as={IoLogoGithub}/>}>
                                 @ikurotime
                             </Button>
-                            <Button variant='ghost' colorScheme='teal' leftIcon={<Icon as={IoLogoLinkedin}/>}>
+                        </Link>
+                        <Link href='https://www.linkedin.com/in/david-huertas-ortiz/' target='_blank'>
+                        <Button variant='ghost' colorScheme='teal' leftIcon={<Icon as={IoLogoLinkedin}/>}>
                                 David Huertas
-                            </Button>
+                        </Button>
                         </Link>
                     </ListItem>
                 </List>

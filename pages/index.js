@@ -16,7 +16,7 @@ const Page = () =>{
         <Layout>
         <Container>
             <Box borderRadius='lg' bg={useColorModeValue('whiteAlpha.500','whiteAlpha.200')} p={3} mb={6} align='center'>
-                Hello, I&apos;m a full-stack developer in Spain
+            I&apos;m a full-stack developer in Spain
             </Box>  
             <Box display={{md:'flex'}}> 
             <Box flexGrow={1}>
@@ -37,7 +37,7 @@ const Page = () =>{
                 maxWidth='100px' 
                 display='inline-block' 
                 borderRadius='full' 
-                src='https://avatars.githubusercontent.com/u/77805983?s=400&u=2c960ef88fdd59c944dccd55a92333d37b2af8b2&v=4' 
+                src='../images/pfpDavid.jpg' 
                 alt='Profile Image'/>
             </Box>
             </Box>
@@ -46,13 +46,13 @@ const Page = () =>{
                     Work
                 </Heading>
                 <Paragraph>
-                Hello, I&apos;m David, a passionate full-stack developer from Madrid, who loves to code everything he can.
+                I&apos;m David, a passionate full-stack developer from Madrid, who loves to code everything he can.
                 Always learning, my goal is to expand my knowlegde and grow as a developer.
                 When I&apos;m not coding I like to read at my kindle and a cup of hot chocolate.
                 </Paragraph>
             <Box align='center' my={4}>
                 <NextLink href='/works'>
-                    <Button rightIcon={<ChevronRightIcon/>} colorScheme='teal'>
+                    <Button rightIcon={<ChevronRightIcon/>} colorScheme='red'>
                         My work
                     </Button>
                 </NextLink>
@@ -94,12 +94,12 @@ const Page = () =>{
                 <List>
                     <ListItem>
                         <Link href='https://github.com/ikurotime' target='_blank'>
-                            <Button variant='ghost' colorScheme='teal' leftIcon={<Icon as={IoLogoGithub}/>}>
+                            <Button variant='ghost' colorScheme='red' leftIcon={<Icon as={IoLogoGithub}/>}>
                                 @ikurotime
                             </Button>
                         </Link>
                         <Link href='https://www.linkedin.com/in/david-huertas-ortiz/' target='_blank'>
-                        <Button variant='ghost' colorScheme='teal' leftIcon={<Icon as={IoLogoLinkedin}/>}>
+                        <Button variant='ghost' colorScheme='red' leftIcon={<Icon as={IoLogoLinkedin}/>}>
                                 David Huertas
                         </Button>
                         </Link>

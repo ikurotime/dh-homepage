@@ -26,8 +26,8 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/MKPImage.png" alt="DiscordBot" />
-      <WorkImage src="/images/works/PHMenu.png" alt="DiscordBot" />
+      <WorkImage src="/images/works/MKPImage.jpg" alt="DiscordBot" />
+      <WorkImage src="/images/works/PHMenu.jpg" alt="DiscordBot" />
     </Container>
   </Layout>
 )

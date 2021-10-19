@@ -29,9 +29,9 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/DiscordImage.png" alt="DiscordBot" />
-      <WorkImage src="/images/works/BotDetail.png" alt="DiscordBot" />
-      <WorkImage src="/images/works/watchytbot.png" alt="DiscordBot" />
+      <WorkImage src="/images/works/DiscordImage.jpg" alt="DiscordBot" />
+      <WorkImage src="/images/works/BotDetail.jpg" alt="DiscordBot" />
+      <WorkImage src="/images/works/watchytbot.jpg" alt="DiscordBot" />
     </Container>
   </Layout>
 )
